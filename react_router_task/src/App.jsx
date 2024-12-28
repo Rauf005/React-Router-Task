@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import Books from './pages/User/Books/Books'
-import './App.css'
-import UserNavbar from './components/User/UserNavbar'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import routes from './routes/routes';
+const Routes=createBrowserRouter(routes)
 function App() {
-  
 
   return (
     <>
-    <UserNavbar/>
-      <Books/>
+
+    <RouterProvider router={Routes}/>
+
     </>
   )
 }
+
+
+
 
 export default App

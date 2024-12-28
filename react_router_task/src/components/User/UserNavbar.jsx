@@ -15,6 +15,8 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import { NavLink } from 'react-router-dom';
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -97,8 +99,7 @@ export default function UserNavbar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      
     </Menu>
   );
 
@@ -119,31 +120,12 @@ export default function UserNavbar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      <MenuItem>
-        
-        <p>Messages</p>
-      </MenuItem>
-      <MenuItem>
-      <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="add to cart">
-          <AddShoppingCartIcon/>
-        </IconButton>
-        <p>Notifications</p>
-      </MenuItem>
-      <MenuItem onClick={handleProfileMenuOpen}>
-        <IconButton
-          size="large"
-          aria-label="account of current user"
-          aria-controls="primary-search-account-menu"
-          aria-haspopup="true"
-          color="inherit"
-        >
-          <AccountCircle />
-        </IconButton>
-        <p>Profile</p>
-      </MenuItem>
+     
+ 
+
+
+
+      
     </Menu>
   );
 
@@ -168,6 +150,7 @@ export default function UserNavbar() {
           >
             MUI
           </Typography>
+         
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
@@ -177,6 +160,24 @@ export default function UserNavbar() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
+          <Typography>
+            
+          <NavLink style={{color:"white",marginLeft:"20px",textDecoration:"none"}} to={"/Books"} color="inherit">Books</NavLink>
+          <NavLink style={{color:"white",marginLeft:"20px" , textDecoration:"none"}} to={""} color="inherit">Home</NavLink>
+          
+          <NavLink to="/favorites" color="inherit" style={{color:"white",marginLeft:"20px",textDecoration:"none"}}>
+  
+    <FavoriteIcon />
+  
+</NavLink>
+
+<NavLink  style={{color:"white",marginLeft:"20px",textDecoration:"none"}} to="/basket" color="inherit">
+ 
+    <AddShoppingCartIcon />
+  
+</NavLink>
+          
+          </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
           <IconButton aria-label="add to favorites">
