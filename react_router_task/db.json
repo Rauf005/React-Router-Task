@@ -1,0 +1,125 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Catcher in the Rye",
+        "description": "A novel about a young man's struggles with growing up.",
+        "price": 15.99,
+        "author": "J.D. Salinger",
+        "pagesCount": 214,
+        "publishedYear": 1951,
+        "genre": "Fiction",
+        "language": "English",
+        "image": "https://example.com/images/catcher_in_the_rye.jpg"
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "description": "A story of racial injustice in the American South.",
+        "price": 12.99,
+        "author": "Harper Lee",
+        "pagesCount": 281,
+        "publishedYear": 1960,
+        "genre": "Fiction",
+        "language": "English",
+        "image": "https://example.com/images/to_kill_a_mockingbird.jpg"
+      },
+      {
+        "id": 3,
+        "title": "1984",
+        "description": "A dystopian novel about totalitarianism and surveillance.",
+        "price": 10.99,
+        "author": "George Orwell",
+        "pagesCount": 328,
+        "publishedYear": 1949,
+        "genre": "Dystopian",
+        "language": "English",
+        "image": "https://example.com/images/1984.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Pride and Prejudice",
+        "description": "A classic novel of manners and social class in early 19th century England.",
+        "price": 8.99,
+        "author": "Jane Austen",
+        "pagesCount": 279,
+        "publishedYear": 1813,
+        "genre": "Romance",
+        "language": "English",
+        "image": "https://example.com/images/pride_and_prejudice.jpg"
+      },
+      {
+        "id": 5,
+        "title": "The Great Gatsby",
+        "description": "A novel about the American dream and the disillusionment of the Jazz Age.",
+        "price": 14.99,
+        "author": "F. Scott Fitzgerald",
+        "pagesCount": 180,
+        "publishedYear": 1925,
+        "genre": "Fiction",
+        "language": "English",
+        "image": "https://example.com/images/the_great_gatsby.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Moby Dick",
+        "description": "A sailor's obsessive quest to catch the elusive white whale, Moby Dick.",
+        "price": 18.99,
+        "author": "Herman Melville",
+        "pagesCount": 585,
+        "publishedYear": 1851,
+        "genre": "Adventure",
+        "language": "English",
+        "image": "https://example.com/images/moby_dick.jpg"
+      },
+      {
+        "id": 7,
+        "title": "War and Peace",
+        "description": "A historical novel about the Napoleonic Wars and Russian society.",
+        "price": 22.99,
+        "author": "Leo Tolstoy",
+        "pagesCount": 1225,
+        "publishedYear": 1869,
+        "genre": "Historical Fiction",
+        "language": "Russian",
+        "image": "https://example.com/images/war_and_peace.jpg"
+      },
+      {
+        "id": 8,
+        "title": "The Hobbit",
+        "description": "A fantasy novel about a hobbit's adventure to reclaim a treasure.",
+        "price": 13.50,
+        "author": "J.R.R. Tolkien",
+        "pagesCount": 310,
+        "publishedYear": 1937,
+        "genre": "Fantasy",
+        "language": "English",
+        "image": "https://example.com/images/the_hobbit.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Frankenstein",
+        "description": "A story about a scientist who creates a creature that becomes his worst enemy.",
+        "price": 9.99,
+        "author": "Mary Shelley",
+        "pagesCount": 280,
+        "publishedYear": 1818,
+        "genre": "Horror",
+        "language": "English",
+        "image": "https://example.com/images/frankenstein.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Brave New World",
+        "description": "A dystopian novel set in a world of technological and genetic manipulation.",
+        "price": 11.99,
+        "author": "Aldous Huxley",
+        "pagesCount": 311,
+        "publishedYear": 1932,
+        "genre": "Science Fiction",
+        "language": "English",
+        "image": "https://example.com/images/brave_new_world.jpg"
+      }
+    ]
+  }
+  
