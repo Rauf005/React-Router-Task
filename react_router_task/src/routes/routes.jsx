@@ -9,6 +9,10 @@ import Basket from '../pages/User/Basket/Basket'
 import Favorites from "../pages/User/Favorites/Favorites"
 import NotFound from"../pages/User/NotFound/NotFound"
 import Home from '../pages/User/Home/Home'
+import AdminBooks from '../pages/Admin/AdminBooks/AdminBooks'
+import AdminDetail from '../pages/Admin/AdminDetail/AdminDetail'
+AdminDetail
+
 const routes =[
     {
         path: "/",
@@ -51,8 +55,16 @@ const routes =[
     element:<AddBook/>
    },
    {
-    path:"editbook",
+    path:"edit-book/:id",
     element:<EditBook/>
+   },
+   {
+    path:"books",
+    element:<AdminBooks/>
+   },
+   {
+    path:"/admin/books/:id",
+    element:<AdminDetail/>
    }
     ]
 }

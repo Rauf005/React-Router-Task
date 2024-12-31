@@ -9,8 +9,7 @@ function AdminRoot() {
     <AdminNavbar/>
     <Outlet/>
     <AdminFooter/>
-      
-    </>
+  </>
   )
 }
 

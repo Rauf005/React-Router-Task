@@ -12,7 +12,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 import { NavLink } from 'react-router-dom';
-import { TextField, Button as MUIButton } from '@mui/material'; // Axtarış və Sort düyməsi üçün komponent
+import { TextField, Button as MUIButton } from '@mui/material'; 
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -32,7 +32,7 @@ export default function RecipeReviewCard() {
   const [expanded, setExpanded] = React.useState(false);
   const [books, setBooks] = React.useState([]);
   const [searchQuery, setSearchQuery] = React.useState("");
-  const [isSorted, setIsSorted] = React.useState(false); // Sort state əlavə et
+  const [isSorted, setIsSorted] = React.useState(false); 
 
   const handleExpandClick = () => {
     setExpanded(!expanded);

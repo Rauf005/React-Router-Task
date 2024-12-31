@@ -1,0 +1,52 @@
+#addform{
+    background-color: aliceblue;
+    width: 400px;
+    height: 550px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+#addform input{
+    width: 90%;
+   
+    
+}
+#addform button{
+border: none;
+border-radius: 5px;
+background-color: rgb(46, 173, 46);
+width: 200px;
+height: 50px;
+color: white;
+}
+
+
+#editform{
+    background-color: aliceblue;
+    width: 400px;
+    height: 550px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#editform input{
+    width: 90%;
+   
+    
+}
+#editform button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(46, 173, 46);
+    width: 200px;
+    height: 50px;
+    color: white;
+    }
+    

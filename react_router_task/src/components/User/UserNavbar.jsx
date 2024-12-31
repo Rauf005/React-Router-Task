@@ -206,6 +206,7 @@ export default function UserNavbar() {
               aria-haspopup="true"
               onClick={handleMobileMenuOpen}
               color="inherit"
+              
             >
               <MoreIcon />
             </IconButton>
